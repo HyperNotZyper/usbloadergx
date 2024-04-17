@@ -46,7 +46,7 @@ bool SystemMenuResources::Init()
 		return true;
 
 	// get tmd
-	tmd *p_tmd = NandTitles.GetTMD( 0x100000002ull );
+	tmd *p_tmd = NandTitles.GetTMD( 0x100000002LL );
 	if( !p_tmd )
 	{
 		gprintf( "can\'t get system menu TMD\n" );
